@@ -1,0 +1,11 @@
+# See http://docs.chef.io/config_rb_knife.html for more information on knife configuration options
+current_dir = File.dirname(__FILE__)
+log_level                :info
+log_location             STDOUT
+node_name                "ericnono12"
+client_key               "#{current_dir}/ericnono12.pem"
+chef_server_url          "https://api.chef.io/organizations/acmeincr"
+cookbook_path            ["#{current_dir}/../cookbooks"]
+
+# Text editor used by Chef Data Bag to Create, Edit Data Bag items
+knife[:editor] = '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe"'

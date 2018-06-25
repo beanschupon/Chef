@@ -1,0 +1,17 @@
+Generated at 2018-06-19 17:00:24 -0500
+Chef::Exceptions::RecipeNotFound: could not find recipe file C:/Users/RNONO/learn-chef/motd.rb
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/run_context.rb:365:in `load_recipe_file'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:100:in `block in setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:99:in `each'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:99:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/client.rb:512:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/client.rb:278:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/application.rb:303:in `run_with_graceful_exit_option'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/application.rb:279:in `block in run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/application.rb:261:in `run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/application/client.rb:441:in `run_application'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/lib/chef/application.rb:66:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.1.12-universal-mingw32/bin/chef-client:26:in `<top (required)>'
+C:/opscode/chefdk/modules/chef/../../bin/chef-client:284:in `load'
+C:/opscode/chefdk/modules/chef/../../bin/chef-client:284:in `<main>'
