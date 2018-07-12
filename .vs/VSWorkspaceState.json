@@ -1,15 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\learn-chef",
     "\\learn-chef\\cookbooks",
     "\\learn-chef\\cookbooks\\learn_chef_httpd",
-    "\\learn-chef\\cookbooks\\learn_chef_httpd\\recipes",
-    "\\learn-chef\\cookbooks\\learn_chef_httpd\\test",
     "\\learn-chef\\cookbooks\\learn_chef_httpd\\test\\smoke",
     "\\learn-chef\\cookbooks\\learn_chef_httpd\\test\\smoke\\default",
     "\\learn-chef\\nodes"
   ],
-  "SelectedNode": "\\learn-chef",
   "PreviewInSolutionExplorer": false
 }
